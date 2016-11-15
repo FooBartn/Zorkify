@@ -58,11 +58,6 @@ Task Test -Depends Init  {
 
 Task Build -Depends Test {
     $lines
-    
-    Get-Item ENV:BH*
-    
-    # Load the module, read the exported functions, update the psd1 FunctionsToExport
-    Set-ModuleFunctions
 
     # Bump the module version
     Try

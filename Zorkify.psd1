@@ -24,13 +24,13 @@ GUID = '20d7c38f-03b8-4a9b-b813-07daea6a61e4'
 Author = 'Joshua Barton'
 
 # Company or vendor of this module
-CompanyName = 'Unknown'
+CompanyName = 'None'
 
 # Copyright statement for this module
 Copyright = '(c) 2016 Joshua Barton. All rights reserved.'
 
 # Description of the functionality provided by this module
-# Description = ''
+Description = 'A goofy script to return Zork quotes instead of actual errors or warnings'
 
 # Minimum version of the Windows PowerShell engine required by this module
 # PowerShellVersion = ''

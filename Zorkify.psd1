@@ -57,7 +57,7 @@ Description = 'A goofy script to return Zork quotes instead of actual errors or 
 # RequiredAssemblies = @()
 
 # Script files (.ps1) that are run in the caller's environment prior to importing this module.
-ScriptsToProcess = @("$PSScriptRoot\Scripts\ZorkOut.ps1")
+ScriptsToProcess = @('Scripts\ZorkOut.ps1')
 
 # Type files (.ps1xml) to be loaded when importing this module
 # TypesToProcess = @()

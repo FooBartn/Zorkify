@@ -1,4 +1,62 @@
 function Zorkify () {
+    <#
+
+        .SYNOPSIS
+
+        A goofy script to return Zork quotes instead of actual errors or warnings
+
+        .DESCRIPTION
+
+        A goofy script to return Zork quotes instead of actual errors or warnings
+
+        .PARAMETER Command
+
+        Command/Script to run. Implemented with Invoke-Expression
+
+        .INPUTS
+
+        None
+
+        .OUTPUTS
+
+        $OutputFile
+
+        .NOTES
+
+        Version:        1.0
+
+        Author:         Joshua Barton (@foobartn)
+
+        Creation Date:  11.14.2016
+
+        Purpose/Change: Initial script development
+        
+        .EXAMPLE
+
+        Successful command
+
+        Zorkify -Command 'Get-Process'
+
+        .EXAMPLE
+
+        Command with Write-Error output
+
+        Zorkify -Command 'Write-Error "Nope"'
+
+        .EXAMPLE
+
+        Command with Write-Warning output
+
+        Zorkify -Command 'Write-Warning "Nope"'
+
+        .EXAMPLE
+
+        Command with Throw output
+
+        Zorkify -Command 'Throw "Nope"'
+
+    #>
+
 
     param (
         [parameter(Mandatory=$true)]
